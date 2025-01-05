@@ -1,0 +1,131 @@
+
+
+.ex-panel-title-container {
+  display: flex;
+  align-items: center;
+
+  .ex-panel-img-div {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+     img {
+       width: 100%;
+       height: 100%;
+     }
+  }
+  .ex-panel-label-div {
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
+
+.check-circle-icon-green {
+  color: #00c500;
+}
+
+.ex-panel-icons-margin {
+  margin-right: 5px;
+}
+
+.ex-panel-des-main {
+  justify-content: end;
+}
+
+.ex-panel-description-container {
+  color: #707070;
+  text-align: right;
+}
+
+.panel-content-btn-container {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.main-container {
+  margin: 20px 15px;
+}
+
+.panel-content-remove-btn  {
+  background-color: #3d4dbe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 0 10px;
+  background-color: #3d4dbe;
+  color: white;
+
+  .header-title-container {
+    h1 {
+      margin: 0;
+      padding: 0;
+      font-weight: 400;
+    }
+  }
+
+  .header-profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    h2 {
+      margin-right: 10px;
+      font-weight: 400;
+    }
+    .header-profile-img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      overflow: hidden;
+
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.top-panel-container {
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+  margin: 30px 0;
+  padding: 15px 15px;
+  position: relative;
+  .top-panel-header-text {
+    position: absolute;
+    top: 17px;
+
+    h2 {
+      margin: 0;
+      font-weight: 400;
+    }
+  }
+
+  .top-panel-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .panel-content-remove-btn-right {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,28 @@
+.login-container {
+  width: 600px;
+  border: 1px solid lightgrey;
+  padding: 20px;
+  border-radius: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+
+
+  .login-btn-container {
+    button {
+      background-color: #3d4dbe;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+  }
+  .login-headline {
+
+  }
+}
+
+
